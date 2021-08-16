@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+<script src="js/main.js"defer></script>
+<!-- <script src="js/other.js"defer></script> -->
+<title>Kirby's Weather</title>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- <div class="row">
+            <div class="col-12">
+                <h2 class="bg-white pb-3 pt-3 m-0">Kirby's Weather App</h2>
+            </div>
+        </div> -->
+        <div class="card border-secondary mb-3 mt-3 text-center" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+              <h5 class="card-title ">Kirby's Weather App</h5>
+              <img src="icons/clouds+cloudy+weather+icon.png" width=75 height=75>
+            </div>
+        </div>
+                
+        <form action="" name="temp" id="tempDataForm">
+            
+            <div class="form-group pb-3" style="max-width: 18rem">
+                <input type="text" name="localWeather" id="localWeatherInput" class="form-control" placeholder="Search City"
+                aria-label="Search" />
+            </div>
+        </form>
+        
+        <div id="localWeatherDisplay">
+            
+        </div>
+
+        <div class="card text-white bg-success mb-3 card text-center" style="max-width: 18rem">
+            <section class="location">
+                <h2 id="city" class="city mt-5"></h2>
+            </section>
+            
+            <section class="current">
+            <div class="current mt-3 mb-5">
+                <h1 id="temp" class="temp"></h1>
+                <h3 class="hi-low">78°F / 62°F</h3>
+                <p id="weather" class="weather"></p>
+            </div>
+            </section>  
+        </div>
+
+        
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
